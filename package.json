@@ -2,21 +2,37 @@
   "name": "nextjs-template",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "npx prettier --write .",
+    "test": "vitest",
+    "check-deps": "npm --engine-strict install && npx npm-check-updates",
+    "upgrade-deps": "npx npm-check-updates --upgrade --target latest && npm --engine-strict install",
+    "vercel-build": "npx prettier --check . && vitest run && next build"
   },
   "dependencies": {
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
+    "autoprefixer": "10.4.13",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
     "next": "13.0.2",
+    "npm-check-updates": "16.3.18",
+    "postcss": "8.4.18",
+    "prettier": "2.7.1",
+    "prettier-plugin-tailwindcss": "0.1.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.8.4"
+    "tailwindcss": "3.2.3",
+    "typescript": "4.8.4",
+    "vitest": "0.25.1"
   }
 }
