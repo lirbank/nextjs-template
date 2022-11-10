@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>nextjs-template</title>
         <meta name="description" content="nextjs-template" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <main className="flex h-full">
