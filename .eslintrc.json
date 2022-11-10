@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "eqeqeq": "error",
+    "object-shorthand": "error",
+    "react/self-closing-comp": "error",
+    "no-unused-vars": "error"
+  }
 }
