@@ -1,3 +1,14 @@
+# nextjs-template
+
+## Preconfigured packages and tools
+
+- https://nextjs.org/
+- https://vitest.dev/
+- https://tailwindcss.com/docs/guides/nextjs
+- https://prettier.io/
+- https://typescript-eslint.io/docs/linting/configs/#strict
+- https://code.visualstudio.com/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
