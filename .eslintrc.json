@@ -1,9 +1,20 @@
 {
-  "extends": "next/core-web-vitals",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "next/core-web-vitals"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "ignoreRestSiblings": true }
+    ],
     "eqeqeq": "error",
     "object-shorthand": "error",
-    "react/self-closing-comp": "error",
-    "no-unused-vars": "error"
-  }
+    "react/self-closing-comp": "error"
+  },
+  "ignorePatterns": ["**/*.js"]
 }
