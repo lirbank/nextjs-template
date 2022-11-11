@@ -11,8 +11,9 @@
 
 ## Vercel configuration
 
-Go to the _Project Settings_ in the Vercel Dashboard and override the _Build
-Command_ with `npm run vercel-build` to run tests and prettier before deploying.
+Go to the _Project Settings_ in the [Vercel Dashboard](https://vercel.com/dashboard)
+and override the _Build Command_ with `npm run vercel-build` to run tests and
+prettier before deploying.
 
 # The default Next.js README follows
 
