@@ -9,6 +9,13 @@
 - https://typescript-eslint.io/docs/linting/configs/#strict
 - https://code.visualstudio.com/
 
+## Vercel configuration
+
+Go to the _Project Settings_ in the Vercel Dashboard and override the _Build
+Command_ with `npm run vercel-build` to run tests and prettier before deploying.
+
+# The default Next.js README follows
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
