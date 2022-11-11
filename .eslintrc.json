@@ -14,6 +14,7 @@
       { "ignoreRestSiblings": true }
     ],
     "eqeqeq": "error",
+    "no-return-await": "error",
     "object-shorthand": "error",
     "react/self-closing-comp": "error"
   },
