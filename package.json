@@ -11,11 +11,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "npx prettier --write .",
+    "prettier": "prettier --write .",
     "test": "vitest",
-    "check-deps": "npm --engine-strict install && npx npm-check-updates",
-    "upgrade-deps": "npx npm-check-updates --upgrade --target latest && npm --engine-strict install",
-    "vercel-build": "npx prettier --check . && vitest run && next build"
+    "deps-check": "npm ci && npm-check-updates",
+    "deps-upgrade": "npm-check-updates --upgrade --target latest && npm install",
+    "vercel-env-pull": "vercel env pull .env.local",
+    "vercel-build": "prettier --check . && vitest run && next build"
   },
   "dependencies": {
     "@types/node": "18.11.9",
