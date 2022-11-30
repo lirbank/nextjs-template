@@ -14,7 +14,7 @@
     "prettier": "prettier --write .",
     "test": "vitest",
     "deps-check": "npm ci && npm-check-updates",
-    "deps-upgrade": "npm-check-updates --upgrade --target latest && npm install",
+    "deps-upgrade": "npm-check-updates --upgrade --target minor && npm install",
     "vercel-env-pull": "vercel env pull .env.local",
     "vercel-build": "prettier --check . && vitest run && next build"
   },
