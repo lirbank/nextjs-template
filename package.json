@@ -15,7 +15,7 @@
     "test": "vitest",
     "deps-check": "npm install && npm-check-updates",
     "deps-upgrade": "npm-check-updates --upgrade --target minor && npm install",
-    "vercel-env-pull": "vercel env pull .env.local"
+    "env-pull": "vercel env pull .env.local"
   },
   "dependencies": {
     "@types/node": "18.11.10",
