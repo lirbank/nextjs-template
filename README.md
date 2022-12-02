@@ -11,7 +11,7 @@
 
 ## Vercel configuration
 
-Vercel will automatically run prettier and tests (as well as ESLint) before
+Vercel will automatically run Prettier and tests (as well as ESLint) before
 building and deploying the app. No additional configuration is needed.
 
 # The default Next.js README follows
