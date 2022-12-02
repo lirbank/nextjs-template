@@ -3,20 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16",
+    "node": "18",
     "npm": "8"
   },
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build",
+    "build": "prettier --check . && vitest run && next build",
     "start": "next start -p 3000",
     "lint": "next lint",
     "prettier": "prettier --write .",
     "test": "vitest",
     "deps-check": "npm install && npm-check-updates",
     "deps-upgrade": "npm-check-updates --upgrade --target minor && npm install",
-    "vercel-env-pull": "vercel env pull .env.local",
-    "vercel-build": "prettier --check . && vitest run && next build"
+    "vercel-env-pull": "vercel env pull .env.local"
   },
   "dependencies": {
     "@types/node": "18.11.10",
