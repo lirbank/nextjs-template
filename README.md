@@ -11,9 +11,8 @@
 
 ## Vercel configuration
 
-Go to the _Project Settings_ in the [Vercel Dashboard](https://vercel.com/dashboard)
-and override the _Build Command_ with `npm run vercel-build` to run tests and
-prettier before deploying.
+Vercel will automatically run prettier and tests (as well as ESLint) before
+building and deploying the app. No additional configuration is needed.
 
 # The default Next.js README follows
 
