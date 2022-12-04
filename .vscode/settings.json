@@ -15,5 +15,5 @@
   "tailwindCSS.experimental.classRegex": [
     "/\\*\\s*@tw\\s*\\*/[^\"]+\"([^\"]*)\""
   ],
-  "dotenv.enableAutocloaking": false
+  "dotenv.enableAutocloaking": true
 }
