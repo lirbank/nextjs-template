@@ -2,8 +2,9 @@
   "recommendations": [
     "bradlc.vscode-tailwindcss",
     "dbaeumer.vscode-eslint",
+    "dotenv.dotenv-vscode",
     "esbenp.prettier-vscode",
-    "GitHub.copilot",
-    "ZixuanChen.vitest-explorer"
+    "github.copilot",
+    "zixuanchen.vitest-explorer"
   ]
 }
