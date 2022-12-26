@@ -1,4 +1,7 @@
 import Head from "next/head";
+import { Inter } from "@next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -6,10 +9,11 @@ export default function Home() {
       <Head>
         <title>nextjs-template</title>
         <meta name="description" content="nextjs-template" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <main className="flex h-full">
+      <main className={`flex h-full ${inter.className}`}>
         <div className="m-auto text-center">
           <div>nextjs-template</div>
           <div>
