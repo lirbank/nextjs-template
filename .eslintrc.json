@@ -8,6 +8,7 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
+  "plugins": ["deprecation"],
   "rules": {
     "@typescript-eslint/explicit-member-accessibility": "error",
     "@typescript-eslint/no-unused-expressions": "error",
@@ -16,11 +17,11 @@
       { "ignoreRestSiblings": true }
     ],
     "eqeqeq": "error",
-    "no-buffer-constructor": "error",
     "no-duplicate-imports": "error",
     "no-return-await": "error",
     "object-shorthand": "error",
-    "react/self-closing-comp": "error"
+    "react/self-closing-comp": "error",
+    "deprecation/deprecation": "error"
   },
   "overrides": [
     {
