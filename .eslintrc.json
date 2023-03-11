@@ -16,12 +16,12 @@
       "error",
       { "ignoreRestSiblings": true }
     ],
+    "deprecation/deprecation": "error",
     "eqeqeq": "error",
     "no-duplicate-imports": "error",
     "no-return-await": "error",
     "object-shorthand": "error",
-    "react/self-closing-comp": "error",
-    "deprecation/deprecation": "error"
+    "react/self-closing-comp": "error"
   },
   "overrides": [
     {
