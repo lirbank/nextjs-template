@@ -5,6 +5,8 @@
     "dotenv.dotenv-vscode",
     "esbenp.prettier-vscode",
     "github.copilot",
+    "stkb.rewrap",
+    "wmaurer.change-case",
     "zixuanchen.vitest-explorer"
   ]
 }
