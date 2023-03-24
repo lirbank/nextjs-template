@@ -15,5 +15,7 @@
   "tailwindCSS.experimental.classRegex": [
     "/\\*\\s*@tw\\s*\\*/[^\"]+\"([^\"]*)\""
   ],
-  "dotenv.enableAutocloaking": true
+  "dotenv.enableAutocloaking": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
