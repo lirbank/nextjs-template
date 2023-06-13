@@ -7,15 +7,14 @@
     "npm": "9"
   },
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "npx -y vercel env pull && next dev -p 3000",
     "build": "prettier --check . && vitest run && next build",
     "start": "next start -p 3000",
     "lint": "next lint",
     "prettier": "prettier --write .",
     "test": "vitest",
     "deps-check": "npm install && npm-check-updates",
-    "deps-upgrade": "npm-check-updates --upgrade --target minor && npm install",
-    "env-pull": "vercel env pull .env.local"
+    "deps-upgrade": "npm-check-updates --upgrade --target minor && npm install"
   },
   "dependencies": {
     "@total-typescript/ts-reset": "0.4.2",
