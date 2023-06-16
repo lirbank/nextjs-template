@@ -13,8 +13,8 @@
     "lint": "next lint",
     "prettier": "prettier --write .",
     "test": "vitest",
-    "deps-check": "npm install && npm-check-updates",
-    "deps-upgrade": "npm-check-updates --upgrade --target minor && npm install"
+    "deps-check": "npm install && ncu",
+    "deps-upgrade": "ncu --upgrade --target minor && npm install"
   },
   "dependencies": {
     "@total-typescript/ts-reset": "0.4.2",
