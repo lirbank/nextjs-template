@@ -1,8 +1,6 @@
 /**
- * https://nextjs.org/docs/basic-features/font-optimization#with-tailwind-css
- * See also pages/_app.tsx
+ * https://nextjs.org/docs/app/building-your-application/optimizing/fonts#with-tailwind-css
  */
-const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -14,7 +12,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-inter)", ...fontFamily.sans],
+        sans: ["var(--font-inter)"],
+        mono: ["var(--font-roboto-mono)"],
       },
     },
   },
