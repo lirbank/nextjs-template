@@ -5,8 +5,7 @@
 /* https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer */
 @layer base {
   html,
-  body,
-  body > div#__next {
+  body {
     @apply h-full;
   }
 }
