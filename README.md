@@ -2,6 +2,40 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and enahnced with my favorite configuration and tooling.
 
+## Recommendations
+
+- Use [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md) to install Node.js and NPM
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub Desktop](https://desktop.github.com/)
+
+## Prerequisites
+
+1. Install Node.js 18 and NPM 9 (using [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md))
+
+1. Check out this [Git repo](https://github.com/lirbank/nextjs-template) locally.
+
+## Getting started
+
+You only have to do this the first time you set up the app.
+
+1. Run `npm install` or `npm run deps-check` to install dependencies
+
+1. Run `npx vercel@latest link` to link your local project to Vercel. This will enable you to automatically pull environment variables for development. nextjs-template is hosted under the `Mikael Lirbank` Vercel project as `lirbank/nextjs-template`. The development environment variables are pulled down from Vercel every time the app is started with `npm run dev`.
+
+### Start the development server
+
+First, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
 ## Preconfigured packages and tools
 
 - https://nextjs.org/
@@ -14,50 +48,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Vercel configuration
 
 Vercel will automatically run Prettier and tests (as well as ESLint) before building and deploying the app. No additional configuration is needed.
-
-## Recommendations
-
-- Use [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md) to install Node.js and NPM
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [GitHub Desktop](https://desktop.github.com/)
-
-## Dev prerequisites
-
-You only have to do this the first time you set up the app.
-
-1. Install Node.js 18 and NPM 9 (using [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md))
-
-1. Check out this [Git repo](https://github.com/lirbank/nextjs-template) locally.
-
-1. Run `npm install` or `npm run deps-check` to install dependencies
-
-1. Run `npx vercel@latest link` to link your local project to Vercel. This will enable you to automatically pull environment variables for development. nextjs-template is hosted under the `Mikael Lirbank` Vercel project as `lirbank/nextjs-template`. The development environment variables are pulled down from Vercel every time the app is started with `npm run dev`.
-
-## Start the app locally
-
-1. Start the app with `npm run dev`
-
-# The default Next.js README follows
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
