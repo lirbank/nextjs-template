@@ -42,10 +42,11 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - https://vitest.dev/
 - https://tailwindcss.com/docs/guides/nextjs
 - https://prettier.io/
-- https://typescript-eslint.io/docs/linting/configs/#strict
-- https://code.visualstudio.com/
+- https://typescript-eslint.io/linting/configs/#strict
+- https://www.npmjs.com/package/eslint-plugin-deprecation
 - https://www.npmjs.com/package/@total-typescript/ts-reset
 - https://www.npmjs.com/package/tiny-invariant
+- https://code.visualstudio.com/
 
 ## Vercel configuration
 
