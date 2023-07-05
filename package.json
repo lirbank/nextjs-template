@@ -14,7 +14,7 @@
     "prettier": "prettier --write .",
     "test": "vitest",
     "deps-check": "npm install && ncu",
-    "deps-upgrade": "ncu --upgrade --target minor && npm install"
+    "deps-upgrade": "ncu --upgrade --target minor && npm install && npm audit fix"
   },
   "dependencies": {
     "@total-typescript/ts-reset": "0.4.2",
